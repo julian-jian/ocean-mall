@@ -1,0 +1,183 @@
+{
+	"pages": [{
+		"path": "pages/main/main",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/user",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/main/classify/classify",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/shopping-cart/shopping-cart",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/order/order",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/shopping-cart/confirm-order/confirm-order",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+
+		"path": "pages/shopping-cart/order-detail/order-detail",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+
+		"path": "pages/main/ponint-shop/ponint-shop",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+
+		"path": "pages/main/search-view/search-view",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+
+		"path": "pages/user/collect/collect",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/main/search-result/search-result",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/main/classify-result/classify-result",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/main/commodity-details/commodity-details",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/set/set",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/main/login/login",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/site/site",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/edit/edit",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/add-site/add-site",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/logistics/logistics",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/inform/inform",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/system-message/system-message",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/cancel/cancel",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/refund-details/refund-details",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/apply-refund/apply-refund",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/reimburse/reimburse",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/user/order-default/order-default",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ranking/amount",
+		"style": {
+			"navigationBarBackgroundColor": "#F53146",
+			"navigationBarTitleText": "消费天梯榜"
+		}
+	}, {
+		"path": "pages/ranking/integral",
+		"style": {
+			"navigationBarBackgroundColor": "#C9994E",
+			"navigationBarTitleText": "积分榜"
+		}
+	}],
+	"tabBar": {
+		"custom": true,
+		"color": "#999999",
+		"selectedColor": "#333333",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/main/main",
+			"iconPath": "/static/img/home1.png",
+			"selectedIconPath": "/static/img/home2.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/main/classify/classify",
+			"iconPath": "/static/img/classify1.png",
+			"selectedIconPath": "/static/img/classify2.png",
+			"text": "分类"
+		}, {
+			"pagePath": "pages/shopping-cart/shopping-cart",
+			"iconPath": "/static/img/cart1.png",
+			"selectedIconPath": "/static/img/cart2.png",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/user/user",
+			"iconPath": "/static/img/user1.png",
+			"selectedIconPath": "/static/img/user2.png",
+			"text": "我的"
+		}]
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#000000",
+		// "backgroundColor": "#fbf9fe",
+		"enablePullDownRefresh": false
+	}
+}
