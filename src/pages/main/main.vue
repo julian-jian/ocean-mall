@@ -45,7 +45,7 @@
 					</view>
 				</view>
 				<!-- {{ Math.ceil(mainClassifyList.length / 10) }} -->
-				<swiper :indicator-dots="true" :autoplay="false" :interval="3000" :duration="1000" class="category-swiper">
+				<swiper  :autoplay="false" :interval="3000" :duration="1000" class="category-swiper">
 					<swiper-item v-for="(swiper_item, swiper_idx) in 1" :key="swiper_idx">
 						<view class="main-classify-box">
 							<view class="main-classify">
@@ -55,7 +55,7 @@
 									:key="key"
 									@click="goClassifyResultPage(item)"
 									:class="{
-										hidden: key < swiper_idx * 10 || key >= (swiper_idx + 1) * 10
+										hidden: key < swiper_idx * 15 || key >= (swiper_idx + 1) * 15
 									}"
 								>
 									<view class="main-classify-icon-box"><easyimage :image-src="item.icon" mode="" class="main-classify-icon"></easyimage></view>
@@ -810,7 +810,7 @@ scroll-view ::-webkit-scrollbar {
 // banner位置的分类栏
 .category-swiper {
 	width: 100%;
-	height: 350rpx;
+	height: 450rpx;
 }
 
 .main-classify-box {
